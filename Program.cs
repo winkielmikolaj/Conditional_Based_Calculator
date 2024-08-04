@@ -66,6 +66,11 @@
 
                     }
                     break;
+                default:
+                    {
+                        Console.WriteLine("Invalid operation. Please choose +, -, *, or /.");
+                    }
+                    break;
 
             }
             Console.ReadKey();

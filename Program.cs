@@ -19,10 +19,10 @@
                     case '+':
                         {
                             Console.WriteLine("Enter first number");
-                            int num1 = Convert.ToInt32(Console.ReadLine());
+                            double num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter first number");
-                            int num2 = Convert.ToInt32(Console.ReadLine());
-                            int result = num1 + num2;
+                            double num2 = Convert.ToDouble(Console.ReadLine());
+                            double result = num1 + num2;
                             Console.WriteLine($"Your result is {result}");
                             validInput = true;
 
@@ -32,10 +32,10 @@
                     case '-':
                         {
                             Console.WriteLine("Enter first number");
-                            int num1 = Convert.ToInt32(Console.ReadLine());
+                            double num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter first number");
-                            int num2 = Convert.ToInt32(Console.ReadLine());
-                            int result = num1 - num2;
+                            double num2 = Convert.ToDouble(Console.ReadLine());
+                            double result = num1 - num2;
                             Console.WriteLine($"Your result is {result}");
                             validInput = true;
                         }
@@ -43,10 +43,10 @@
                     case '*':
                         {
                             Console.WriteLine("Enter first number");
-                            int num1 = Convert.ToInt32(Console.ReadLine());
+                            double num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter first number");
-                            int num2 = Convert.ToInt32(Console.ReadLine());
-                            int result = num1 * num2;
+                            double num2 = Convert.ToDouble(Console.ReadLine());
+                            double result = num1 * num2;
                             Console.WriteLine($"Your result is {result}");
                             validInput = true;
                         }
@@ -54,9 +54,9 @@
                     case '/':
                         {
                             Console.WriteLine("Enter first number");
-                            int num1 = Convert.ToInt32(Console.ReadLine());
+                            double num1 = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Enter first number");
-                            int num2 = Convert.ToInt32(Console.ReadLine());
+                            double num2 = Convert.ToDouble(Console.ReadLine());
                             if (num1 == 0)
                             {
                                 Console.WriteLine("You can not divide by 0!");
@@ -67,7 +67,7 @@
                             }
                             else
                             {
-                                int result = num1 / num2;
+                                double result = num1 / num2;
                                 Console.WriteLine($"Your result is {result}");
                             }
                             validInput = true;

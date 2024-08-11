@@ -20,7 +20,7 @@
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = Convert.ToDouble(Console.ReadLine());
-                            Console.WriteLine("Enter first number");
+                            Console.WriteLine("Enter second number");
                             double num2 = Convert.ToDouble(Console.ReadLine());
                             double result = num1 + num2;
                             Console.WriteLine($"Your result is {result}");
@@ -33,7 +33,7 @@
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = Convert.ToDouble(Console.ReadLine());
-                            Console.WriteLine("Enter first number");
+                            Console.WriteLine("Enter second number");
                             double num2 = Convert.ToDouble(Console.ReadLine());
                             double result = num1 - num2;
                             Console.WriteLine($"Your result is {result}");
@@ -44,7 +44,7 @@
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = Convert.ToDouble(Console.ReadLine());
-                            Console.WriteLine("Enter first number");
+                            Console.WriteLine("Enter second number");
                             double num2 = Convert.ToDouble(Console.ReadLine());
                             double result = num1 * num2;
                             Console.WriteLine($"Your result is {result}");
@@ -55,7 +55,7 @@
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = Convert.ToDouble(Console.ReadLine());
-                            Console.WriteLine("Enter first number");
+                            Console.WriteLine("Enter second number");
                             double num2 = Convert.ToDouble(Console.ReadLine());
                             if (num1 == 0)
                             {

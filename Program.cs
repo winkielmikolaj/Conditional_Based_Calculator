@@ -14,17 +14,17 @@
                 Console.WriteLine("/");
                 string menu = Convert.ToString(Console.ReadLine());
 
-                //int leng = menu.Length;
+                int leng = menu.Length;
 
-                //if (leng > 1)
-                //{
-                //    Console.WriteLine("wprowadz poprawne znaki");
-                //}
-                //else if (leng < 1)
-                //{
-                //    Console.WriteLine("wprowadz poprawne znaki");
-                //}
-                
+                if (leng > 1)
+                {
+                    Console.WriteLine("wprowadz poprawne znaki");
+                }
+                else if (leng < 1)
+                {
+                    Console.WriteLine("wprowadz poprawne znaki");
+                }
+
 
                 switch (menu)
                 {

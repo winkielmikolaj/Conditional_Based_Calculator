@@ -12,11 +12,23 @@
                 Console.WriteLine("-");
                 Console.WriteLine("*");
                 Console.WriteLine("/");
-                char menu = Convert.ToChar(Console.ReadLine());
+                string menu = Convert.ToString(Console.ReadLine());
+
+                //int leng = menu.Length;
+
+                //if (leng > 1)
+                //{
+                //    Console.WriteLine("wprowadz poprawne znaki");
+                //}
+                //else if (leng < 1)
+                //{
+                //    Console.WriteLine("wprowadz poprawne znaki");
+                //}
+                
 
                 switch (menu)
                 {
-                    case '+':
+                    case "+":
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = double.Parse(Console.ReadLine());
@@ -35,7 +47,7 @@
                         }
                         break;
 
-                    case '-':
+                    case "-":
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = Convert.ToDouble(Console.ReadLine());
@@ -46,7 +58,7 @@
                             validInput = true;
                         }
                         break;
-                    case '*':
+                    case "*":
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = Convert.ToDouble(Console.ReadLine());
@@ -57,7 +69,7 @@
                             validInput = true;
                         }
                         break;
-                    case '/':
+                    case "/":
                         {
                             Console.WriteLine("Enter first number");
                             double num1 = Convert.ToDouble(Console.ReadLine());

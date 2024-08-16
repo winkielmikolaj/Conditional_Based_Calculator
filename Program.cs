@@ -7,6 +7,7 @@
             bool validInput = false;
             while (!validInput)
             {
+                //testetstestestestet
                 Console.WriteLine("Chose what to do:");
                 Console.WriteLine("+");
                 Console.WriteLine("-");
